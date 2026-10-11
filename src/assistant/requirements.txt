@@ -1,0 +1,48 @@
+# ============================================================
+# requirements.txt — DataOlist AI (moteur NLP->SQL + interface Streamlit)
+# Reflete les dependances REELLEMENT utilisees dans le code.
+# ============================================================
+
+# --- LLM & Orchestration (Groq via LangChain) ---
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-groq>=0.1.3
+
+# --- Base de donnees ---
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# --- Data manipulation ---
+pandas>=2.2.0
+numpy>=1.26.3
+
+# --- Interface web ---
+streamlit>=1.35.0
+
+# --- Visualisation ---
+plotly>=5.20.0
+matplotlib>=3.8.2
+seaborn>=0.13.2
+
+# --- Export (Excel / PDF) ---
+openpyxl>=3.1.0
+fpdf2>=2.7.0
+
+# --- Lecture PDF (upload utilisateur) ---
+PyPDF2>=3.0.0
+
+# --- API (si vous exposez le moteur via FastAPI, optionnel) ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0.0
+
+# --- Securite ---
+bcrypt>=4.1.0
+
+# --- Utilitaires ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# --- Notebooks d'exploration ---
+jupyter>=1.0.0

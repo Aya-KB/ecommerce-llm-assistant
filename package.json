@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "echarts-for-react": "^3.0.6",
+    "exceljs": "^4.4.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "papaparse": "^5.5.3",
+    "xlsx": "^0.18.5"
+  }
+}
