@@ -4,3 +4,54 @@ __pycache__/
 data/raw/
 data/processed/
 *.csv
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+
+# Données
+data/raw/
+data/processed/
+*.csv
+faiss_olist_index/
+
+# Base de données locale
+users.db
+*.db
+
+# Système
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
+!.env.example
+
+venv/
+**/venv/
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+users.db
+*.db
+
+data/raw/
+data/processed/
+*.csv
+faiss_olist_index/
+
+Documents - Raccourci.lnk
